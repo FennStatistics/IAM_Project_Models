@@ -1,13 +1,12 @@
-1.  <div>
-
-    ---
-    title: "01_prepareData"
-    author: "Julius Fenn, Lukas Engel"
-    format: html
-    editor: visual
-    ---
-
-    </div>
+---
+title: "01 data preperation"
+author: "Julius Fenn, Lukas Engels"
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    css: styles.css
+---
 
 ## Quarto
 
@@ -18,14 +17,14 @@ Quarto enables you to weave together content and executable code into a finished
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
-1 + 1
+1 + 1 + 2
 ```
 
 You can add options to executable code like this
 
 ```{r}
 #| echo: false
-2 * 2
+2 * 2 * 3
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
