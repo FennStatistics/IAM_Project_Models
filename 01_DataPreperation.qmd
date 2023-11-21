@@ -4,9 +4,12 @@ author: "Julius Fenn, Lukas Engels"
 format:
   html:
     toc: true
+    toc-depth: 3
     html-math-method: katex
     css: styles.css
 ---
+
+# Main Header
 
 ## Quarto
 
@@ -17,14 +20,14 @@ Quarto enables you to weave together content and executable code into a finished
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
-1 + 2 * 3
+1 + 2 * 3 * 55
 ```
 
 You can add options to executable code like this
 
 ```{r}
 #| echo: false
-2 * 2 * 3
+2 * 2 * 3 * 55
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
